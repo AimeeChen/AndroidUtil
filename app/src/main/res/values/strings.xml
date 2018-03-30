@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidUtil</string>
+    <string name="util_name_screen">获取屏幕信息</string>
+</resources>
