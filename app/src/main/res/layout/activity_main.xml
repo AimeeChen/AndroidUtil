@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_util"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.aimee.util.MainActivity"
-    >
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.aimee.util.MainActivity">
 
+    <!--获取屏幕信息-->
     <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:orientation="vertical"
-        android:gravity="center"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/btn_screen"
@@ -30,4 +32,23 @@
             android:layout_margin="@dimen/result_margin"/>
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <Button
+        android:id="@+id/btn_activity_as_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="onClick"
+        android:text="@string/str_activity_as_dialog"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+</LinearLayout>

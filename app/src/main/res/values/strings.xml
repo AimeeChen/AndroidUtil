@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AndroidUtil</string>
     <string name="util_name_screen">获取屏幕信息</string>
+    <string name="str_activity_as_dialog">Activity做成Dialog</string>
+    <string name="str_change_background_transparency">改变背景透明度</string>
+    <string name="str_transparency">改变背景透明度：%s</string>
 </resources>
