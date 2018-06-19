@@ -22,4 +22,8 @@
         <item name="android:backgroundDimEnabled">false</item>
         <!-- 模糊 -->
     </style>
+
+    <style name="PlatformDialog" parent="android:Theme.Dialog"/>
+
+    <style name="textAppearanceBaseContent" parent="@android:style/TextAppearance.Small.Inverse"/>
 </resources>
