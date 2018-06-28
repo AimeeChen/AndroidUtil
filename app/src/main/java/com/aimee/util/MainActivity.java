@@ -62,4 +62,9 @@ public class MainActivity extends AppCompatActivity {
 //        startActivity(intent);("android.settings.WIFI_SETTINGS");
 //        startActivity(intent);
     }
+
+    private void startCameraActivity() {
+        Intent intent = new Intent(MainActivity.this, CameraActivity.class);
+        startActivity(intent);
+    }
 }

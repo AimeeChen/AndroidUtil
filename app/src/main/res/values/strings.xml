@@ -5,6 +5,7 @@
     <string name="str_change_background_transparency">改变背景透明度</string>
     <string name="str_transparency">改变背景透明度：%s</string>
     <string name="str_wifi">获取Wifi列表</string>
+    <string name="str_camera">获取摄像头拍照</string>
 
     <string name="toastFailed">Failed!</string>
     <string name="buttonOp">More&#8230;</string>

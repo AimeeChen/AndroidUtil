@@ -59,4 +59,17 @@
         android:layout_margin="20dp"
         android:onClick="onClick"
         android:text="@string/str_wifi"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/str_camera"/>
 </LinearLayout>
